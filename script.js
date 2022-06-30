@@ -3,8 +3,9 @@ const socket = io('/'); //it will connect to root path - but in the real project
 const videoGrid = document.getElementById('video-grid');
 
 const myPeer = new Peer(undefined, {
-  host: '/',
-  port: '3001',
+  secure: true,
+  host: 'webrtc-cw.herokuapp.com',
+  port: '443',
 });
 
 
