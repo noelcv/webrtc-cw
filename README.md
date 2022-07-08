@@ -1,16 +1,12 @@
-# zoom-clone
-
-//very very important
-
-
-`npm start`
-
-RUN the PEER JS server!!!!
-`peerjs --port 3001`
-
-`peerjs --host 9000 --port 9001` best attempt so far
+# WebRTC Demo
+To start the project run `npm start` from the CLI
 
 
-# NGROK
+//Very important
+Run the PeerJS server to start listening for new connections.
+`peerjs --port 9001`
 
+
+# USING NGROK
+If you want to run a tunnel spin an instance using NGROK.
 `ngrok http --host-header localhost 9000`
